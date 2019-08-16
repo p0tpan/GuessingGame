@@ -13,7 +13,7 @@ while True:
         guessList.append(playerGuess)
         break
     except ValueError:
-        print("Oops!  That was no valid number.  Try again...")
+        print("Oops!  That was not a valid number.  Try again...")
         playerGuess = input("Pick a number.")
 
 if int(playerGuess) == theNumber:
